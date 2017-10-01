@@ -7,7 +7,7 @@
 Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```sh
-git clone swivl-frontend-test
+git clone https://github.com/NataliiaZhurbenko/swivl-frontend-test.git
 cd swivl-frontend-test
 npm install
 $(npm bin)/static

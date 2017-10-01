@@ -51,7 +51,7 @@ export default class UsersList extends React.Component {
 
     return (
       <div>
-        <div>{users}</div>
+        <div className="users-list">{users}</div>
         <div><button onClick={() => this.loadMore()}>Load more</button></div>
       </div>
     );

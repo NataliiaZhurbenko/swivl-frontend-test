@@ -28,7 +28,7 @@ export default class UserDetail extends React.Component {
 
   render() {
     return (
-      <div className="detail-panel">
+      <div className="user-detail">
         <img src={this.state.avatar_url} />
         <p>User login: {this.state.login}</p>
         <p>User name: {this.state.name}</p>
